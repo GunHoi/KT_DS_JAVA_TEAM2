@@ -1,0 +1,426 @@
+Cafe Menu Management System      // 이부분은 가장 처음 1번만 실행
+
+<등록>                   		// 출력하는 부분 X
+===========================
+1. 등록
+2. 수정
+3. 삭제
+4. 조회(1개)
+5. 조회(종류별로)
+6. 조회(전체)
+7. 종료                 		// 1~6 이외의 숫자 입력시 무조건 종료.
+===========================
+메뉴를 입력하세요(숫자): 1
+===========================
+1. 커피
+2. 음료
+3. 티
+4. 디저트
+5. 뒤로가기                		// 1~4 이외의 숫자 입력시 무조건 뒤로가기.
+===========================
+등록할 메뉴 타입을 입력하세요(숫자): 1
+등록할 아이템명을 입력하세요(문자): 아메리카노
+아메리카노이(가) 등록되었습니다.
+
+
+
+
+
+<수정>                   		// 출력하는 부분 X
+===========================
+1. 등록
+2. 수정
+3. 삭제
+4. 조회(1개)
+5. 조회(종류별)
+6. 조회(전체)
+7. 종료
+===========================
+메뉴를 입력하세요: 2
+===========================
+1. 커피
+2. 음료
+3. 티
+4. 디저트
+5. 뒤로가기
+===========================
+				//정상작동의 경우
+수정할 메뉴 타입을 입력하세요: 0
+수정할 아이템 인덱스를 입력하세요(숫자): 0
+수정할 아이템명을 입력하세요(문자): 카페라떼
+카페라떼로 수정되었습니다.
+
+				//존재하지 않는 인덱스인 경우
+수정할 메뉴 타입을 입력하세요(숫자): 1
+수정할 아이템 인덱스를 입력하세요(숫자): 999
+아이템이 존재하지 않습니다.
+
+
+
+
+
+<삭제>                   		// 출력하는 부분 X
+===========================
+1. 등록
+2. 수정
+3. 삭제
+4. 조회(1개)
+5. 조회(종류별)
+6. 조회(전체)
+7. 종료
+===========================
+메뉴를 입력하세요(숫자): 3
+===========================
+1. 커피
+2. 음료
+3. 티
+4. 디저트
+5. 뒤로가기
+===========================
+				//정상작동의 경우
+삭제할 메뉴 타입을 입력하세요(숫자): 1
+삭제할 아이템 인덱스를 입력하세요(숫자): 0
+삭제되었습니다.
+
+				//존재하지 않는 인덱스인 경우
+삭제할 메뉴 타입을 입력하세요(숫자): 1
+삭제할 아이템 인덱스를 입력하세요(숫자): 999
+아이템이 존재하지 않습니다.
+
+
+
+
+
+<조회(1개)>                   	// 출력하는 부분 X
+===========================
+1. 등록
+2. 수정
+3. 삭제
+4. 조회(1개)
+5. 조회(종류별)
+6. 조회(전체)
+7. 종료
+===========================
+메뉴를 입력하세요(숫자): 4          
+===========================
+1. 커피
+2. 음료
+3. 티
+4. 디저트
+5. 뒤로가기
+===========================
+조회할 메뉴 타입을 입력하세요(숫자): 1	//정상작동의 경우
+조회할 아이템 인덱스 입력하세요(숫자): 0
+아메리카노
+
+조회할 메뉴 타입을 입력하세요(숫자): 1	//존재하지 않는 인덱스인 경우
+조회할 아이템 인덱스 입력하세요(숫자): 999
+아이템이 존재하지 않습니다.
+
+
+
+
+
+<조회(종류별)>                   // 출력하는 부분 X
+===========================
+1. 등록
+2. 수정
+3. 삭제
+4. 조회(1개)
+5. 조회(종류별)
+6. 조회(전체)
+7. 종료
+===========================
+메뉴를 입력하세요(숫자): 5          
+===========================
+1. 커피
+2. 음료
+3. 티
+4. 디저트
+5. 뒤로가기
+===========================
+조회할 메뉴 타입을 입력하세요(숫자): 1 	//정상작동의 경우
+<커피>
+아메리카노
+카페라떼
+에스프레소
+
+조회할 메뉴 타입을 입력하세요(숫자): 4	//아이템이 없는 경우
+<디저트>
+
+
+
+
+
+<조회(전체)>                   // 출력하는 부분 X
+===========================
+1. 등록
+2. 수정
+3. 삭제
+4. 조회(1개)
+5. 조회(종류별)
+6. 조회(전체)
+7. 종료
+===========================
+메뉴를 입력하세요(숫자): 6          // 전체 출력만
+
+<커피>
+아메리카노
+카페라떼
+에스프레소
+
+<음료>
+스무디
+프라페
+
+<티>
+아이스티
+
+<디저트>
+크로플
+
+
+
+
+
+<프로그램 종료>
+===========================
+1. 등록
+2. 수정
+3. 삭제
+4. 조회(1개)
+5. 조회(종류별)
+6. 조회(전체)
+7. 종료
+===========================
+메뉴를 입력하세요(숫자): 1~6을 제외한 모든 숫자   
+프로그램을 종료합니다.
+
+
+
+-------------------------------------------------------------
+pacakage명 : com.ktdsuniversity.edu
+                .cafe.menu.mgnt.(vo/service/dao/controller 별로 다르게)
+
+Map으로 분류(커피,음료,티,디저트)하고 List(각 분류별 내용물)를 저장한다.
+
+
+MenuMgntVo.java
+ 	private String itemName;
+
+
+MenuMgntDAO.java	//인터페이스
+
+	public int create(String itemType, MenuMgntVO menuMgntVO);
+	
+	public int update(String itemType, int itemIdx, MenuMgntVO menuMgntVO);
+	
+	public int delete(String itemType, int itemIdx);
+	
+	public MenuMgntVO read(String itemType, int itemIdx);
+	
+	public List<MenuMgntVO> readSome(String itemType);
+	
+	public Map<String, List<MenuMgntVO>> readAll();
+
+
+MenuMgntDAOImpl.java	//구현 클래스
+
+	private Map<String, List<MenuMgntVO>> dataSource;
+
+	public MenuMgntDAOImpl() {			//생성자 Hint!!
+		dataSource = new HashMap<>();
+		dataSource.put("커피", new ArrayList<>());
+		dataSource.put("음료", new ArrayList<>());
+		dataSource.put("티", new ArrayList<>());
+		dataSource.put("디저트", new ArrayList<>());
+	}
+
+	public int create(String itemType, MenuMgntVO menuMgntVO);
+	
+	public int update(String itemType, int itemIdx, MenuMgntVO menuMgntVO);
+	
+	public int delete(String itemType, int itemIdx);
+	
+	public MenuMgntVO read(String itemType, int itemIdx);
+	
+	public List<MenuMgntVO> readSome(String itemType);
+	
+	public Map<String, List<MenuMgntVO>> readAll();
+
+
+MenuMgntService.java	//인터페이스
+
+	public boolean create(String itemType,MenuMgntVO menuMgntVO);
+	
+	public boolean update(String itemType, int itemIdx, MenuMgntVO menuMgntVO);
+	
+	public boolean delete(String itemType, int itemIdx);
+	
+	public MenuMgntVO read(String itemType, int itemIdx);
+	
+	public List<MenuMgntVO> readSome(String itemType);
+	
+	public Map<String, List<MenuMgntVO>> readAll();
+
+
+MenuMgntServiceImpl.java	//구현 클래스
+	
+	private MenuMgntDAO menuMgntDAO;
+	
+	public boolean create(String itemType,MenuMgntVO menuMgntVO);
+	
+	public boolean update(String itemType, int itemIdx, MenuMgntVO menuMgntVO);
+	
+	public boolean delete(String itemType, int itemIdx);
+	
+	public MenuMgntVO read(String itemType, int itemIdx);
+	
+	public List<MenuMgntVO> readSome(String itemType);
+	
+	public Map<String, List<MenuMgntVO>> readAll();
+
+
+MenuMgntController.java
+
+각 메뉴는 ( )에 적힌 타입으로 받아주세요.
+(숫자) 인데 문자로 입력되는 경우의 예외처리 안하셔도 됩니다.
+(문자) 인데 숫자로 입력되는 경우의 예외처리 안하셔도 됩니다.
+
+	반복되어 불러오는 기능은 함수를 이용해서 호출하는 방법으로 해주세요.
+	public void printMenu() {
+		System.out.println("\n============================\r\n"
+				+ "1. 등록\r\n"
+				+ "2. 수정\r\n"
+				+ "3. 삭제\r\n"
+				+ "4. 조회(1개)\r\n"
+				+ "5. 조회(종목별로)\r\n"
+				+ "6. 조회(전체)\r\n"
+				+ "7. 종료\r\n"
+				+ "============================\n");
+	}
+	
+	public void printItemTypeMenu() {
+		System.out.println("\n============================\r\n"
+				+ "1. 커피\r\n"
+				+ "2. 음료\r\n"
+				+ "3. 티\r\n"
+				+ "4. 디저트\r\n"
+				+ "5. 뒤로가기\r\n"
+				+ "============================\n");
+	}
+
+
+
+==========================================================================================
+아래에는 제가 작성한 방법(코드)이 있습니다. 스포를 원치 않으신 분들은 여기까지만 읽어주세요!
+
+모두 화이팅해서 문제 풀어주세요!!
+
+문제에서 오류가 있거나 애매한 부분이 있으면 언제든지 말해주시면 감사하겠습니다! ^_^
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Hint 
+
+1. 커피
+2. 음료
+3. 티
+4. 디저트 의 경우 입력받는 값은 (숫자)라고 되어있는데
+
+전달해야하는 값은 (String) 입니다.
+
+어떻게 하면 될까요? 
+
+
+아래에는 제가 작성한 방법(코드)이 있습니다. 스포를 원치 않으신 분들은 여기까지만 읽어주세요!
+========================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	public String changeItemType(int itemType) {
+		if(itemType == 1) {
+			return "커피";
+		}else if(itemType == 2) {
+			return "음료";
+		}else if(itemType == 3) {
+			return "티";
+		}else if(itemType == 4) {
+			return "디저트";
+		}else {
+			return "없음";
+		}
+	}
+
+(숫자)인 itemType을 각 번호에 맞춰서 return 해주는 함수를 만들어 호출하는 방법으로 하였습니다!
+
+
+또 다른 방법으로는 List <String> 으로 만들어서
+
+index 0 에는 "커피"
+index 1 에는 "음료"
+index 2 에는 "티"
+index 3 에는 "디저트"
+
+를 넣고 List에서 꺼내 쓰는 방법도 있습니다!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
