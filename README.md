@@ -4,7 +4,7 @@ KT DS 웹 융합 어플리케이션 개발자 양성과정 JAVA 학습 - Team2
 ## Cafe Menu Management System
 ### v1.0.0
 <a href="https://naver.com"><img src="https://img.shields.io/badge/1st Proejct-000000?style=flat-square&logo=Github&logoColor=white"/></a>
-<a href="https://naver.com"><img src="https://img.shields.io/badge/view ReadMe-000000?style=flat-square&logo=ReadMe&logoColor=white"/></a>
+<a href="https://github.com/GunHoi/KT_DS_JAVA_TEAM2/blob/master/README.md"><img src="https://img.shields.io/badge/view ReadMe-000000?style=flat-square&logo=ReadMe&logoColor=white"/></a>
 #### 주요 기능
   - 등록
   - 수정
